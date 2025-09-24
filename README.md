@@ -303,8 +303,8 @@ Already auto-detects local zone. See `now_local_eu()` in `build_digest.py` to cu
 
 ## Versioning & license
 
-* Current: **v0.1**
-* License: MIT (or your preferred license).
+* Current: **v1.0**
+* License: GPL-3.0 Licence.
 
 ---
 
