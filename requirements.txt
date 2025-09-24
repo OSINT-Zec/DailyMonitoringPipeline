@@ -1,0 +1,25 @@
+# requirements.txt (sanitized, lean base)
+
+# Core
+python-dotenv==1.0.1
+feedparser==6.0.11
+trafilatura==1.9.0
+requests==2.32.3
+SQLAlchemy==2.0.32
+psycopg2-binary==2.9.9
+PyYAML==6.0.2
+openai==1.40.3
+tzlocal==5.2
+
+# Language detection (fast + small)
+langid==1.1.6
+langdetect==1.0.9
+
+# Clustering (MiniBatchKMeans)
+numpy==2.0.1
+scikit-learn==1.5.1
+
+# --- Optional: embedding-powered classification (commented out) ---
+# sentence-transformers==3.0.1  # will pull in torch; large install
+# torch==2.3.1                   # pin if you want a specific wheel
+

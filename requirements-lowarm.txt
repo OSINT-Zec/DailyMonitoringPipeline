@@ -1,0 +1,28 @@
+# --- Core runtime ---
+python-dotenv==1.0.1
+PyYAML==6.0.2
+requests==2.32.3
+SQLAlchemy==2.0.32
+psycopg2-binary==2.9.9
+tzlocal==5.2
+
+# --- Feeds & content extraction ---
+feedparser==6.0.11
+trafilatura==1.9.0
+
+# --- NLP / tagging (lightweight) ---
+langid==1.1.6
+langdetect==1.0.9
+
+# --- Clustering (light mode) ---
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# --- OpenAI client (summaries) ---
+openai==1.40.3
+
+# ---- Optional / extras (uncomment if you actually need them) ----
+# pandas==2.2.2                 # Heavy on low-ARM; not used in current code
+# telethon==1.36.0              # Only if you later add Telegram ingestion
+# sentence-transformers==2.7.0  # If you enable embedding-based enrichment
+
