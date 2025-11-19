@@ -3,6 +3,8 @@
 **Version:** 1.0  
 **Last Updated:** 24 Sep 2025  
 
+My recent post about this is here: https://medium.com/@inessacho98/building-a-daily-monitoring-pipeline-that-actually-delivers-0bd1cd832211
+
 A lightweight pipeline for:  
 - Collecting sources (RSS + research feeds)  
 - Enriching content  
